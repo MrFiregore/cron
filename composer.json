@@ -1,0 +1,26 @@
+{
+  "name": "firegore2/cron",
+  "description": "Cron library with mysql",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Pedro L.E.",
+      "email": "firegore2@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Firegore\\Cron\\": "src/"
+    }
+  },
+  "require": {
+    "firegore2/mysql": "dev-master",
+    "illuminate/support": "5.6.x-dev",
+    "league/event": "2.1.2",
+    "kint-php/kint": "^2.0"
+  },
+  "files": [
+    "src/Start.php"
+  ]
+}
